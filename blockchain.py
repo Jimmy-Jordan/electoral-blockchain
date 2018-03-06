@@ -51,7 +51,7 @@ def transaction():
 	print "New transaction"
 	print "FROM: {}".format(new_txion['from'].encode('ascii','replace'))
 	print "TO: {}".format(new_txion['to'].encode('ascii','replace'))
-	print "AMOUNT: {}\n".format(new_txion['amount'])
+	print "Amount: {}\n".format(new_txion['amount'])
 
 	return "Transaction submission successful\n"
 
